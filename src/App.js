@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import { Component } from 'react';
 import './App.css';
+import Splash from './screen/splash/Splash';
+import Main from './screen/main/Main';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+        opacity: '0',
+    }
+  }
+
+  mainScreenOn = () => {
+    this.setState(prevState => ({
+      opacity: '1',
+    }));
+  }
+
+  render(){
+    const {opacity} = this.state;
+
+    return(
+      <div className="App">
+        <Splash mainScreenOn={this.mainScreenOn}></Splash>
+        <div style={{opacity: opacity, transition: '1s', transitionDuration: '1s'}}>
+          <Main></Main>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default App;
