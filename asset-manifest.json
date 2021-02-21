@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MushBlog/static/css/main.d4046a73.chunk.css",
+    "main.css": "/MushBlog/static/css/main.c7c17351.chunk.css",
     "main.js": "/MushBlog/static/js/main.894e7a2a.chunk.js",
     "main.js.map": "/MushBlog/static/js/main.894e7a2a.chunk.js.map",
     "runtime-main.js": "/MushBlog/static/js/runtime-main.bf08cd58.js",
@@ -10,14 +10,14 @@
     "static/js/3.a7960616.chunk.js": "/MushBlog/static/js/3.a7960616.chunk.js",
     "static/js/3.a7960616.chunk.js.map": "/MushBlog/static/js/3.a7960616.chunk.js.map",
     "index.html": "/MushBlog/index.html",
-    "static/css/main.d4046a73.chunk.css.map": "/MushBlog/static/css/main.d4046a73.chunk.css.map",
+    "static/css/main.c7c17351.chunk.css.map": "/MushBlog/static/css/main.c7c17351.chunk.css.map",
     "static/js/2.84ad65ab.chunk.js.LICENSE.txt": "/MushBlog/static/js/2.84ad65ab.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/MushBlog/static/media/winter.ed905d9f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf08cd58.js",
     "static/js/2.84ad65ab.chunk.js",
-    "static/css/main.d4046a73.chunk.css",
+    "static/css/main.c7c17351.chunk.css",
     "static/js/main.894e7a2a.chunk.js"
   ]
 }
