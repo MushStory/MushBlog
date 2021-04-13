@@ -15,7 +15,7 @@ class App extends Component{
     this.setState(prevState => ({
       opacity: '1',
     }));
-  }
+  };
 
   render(){
     const {opacity} = this.state;
